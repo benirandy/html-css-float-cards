@@ -6,9 +6,7 @@
 
 
 
-.debug .col {
-    border: solid 1px rgb(225, 255, 0);
-}
+
 
 
 
@@ -49,16 +47,9 @@ p {
     margin-bottom: 10px;
 }
 
-.col {
-    float: left;
-    width: calc(100% / 3);
-    padding: 10px;
-    text-align: left;
-    background-color: black;
-    margin-bottom: 10px;
-    margin-top: 10px;
 
-}
+
+
 
 .col img {
     height: 90px;
@@ -71,3 +62,12 @@ p {
     clear: both;
     display: table;
 }
+
+.col {
+    float: left;
+    width: calc(100% / 3);
+
+    text-align: left;
+    background-color: black;
+    margin-bottom: 10px;
+    margin-top: 10px;
